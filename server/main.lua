@@ -3,7 +3,7 @@ ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 function RandomNumber()
-	return math.random(1000,10594)
+	return math.random(1000,12000)
 end
 
 RegisterServerEvent('ak_dev:DaiSoldiATM')
